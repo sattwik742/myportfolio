@@ -29,13 +29,13 @@ export default function Hero() {
         <div className="flex justify-center gap-4">
           <a
             href="/resume.pdf"
-            className="bg-black text-white px-6 py-2 hover:bg-gray-800 transition rounded-md"
+            className="bg-black text-white px-6 py-2 hover:bg-gray-800 transition"
           >
             View Resume
           </a>
           <a
             href="#projects"
-            className="border border-black text-black px-6 py-2 hover:bg-gray-800 hover:text-white transition rounded-md"
+            className="border border-black text-black px-6 py-2 hover:bg-gray-800 hover:text-white transition"
           >
             See Projects
           </a>
