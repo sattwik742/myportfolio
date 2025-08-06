@@ -1,11 +1,11 @@
 import Image from "next/image";
 
-export default function Hero() {
+export default function About() {
   return (
     <section className="min-h-screen flex items-center justify-center bg-gray-50 px-6">
       <div className="flex flex-col items-center text-center">
         {/* Profile Image */}
-        <div className="w-50 h-50 relative mb-6">
+        <div className="w-60 h-60 relative mb-6">
           <Image
             src="/images/profile.jpeg" 
             alt="My Profile Image"

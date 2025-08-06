@@ -1,13 +1,20 @@
 // Importing Navbar Component
 import Navbar from "@/components/Navbar/Navbar";
 // Importing Hero Section
-import Hero from "@/components/About/About";
+import About from "@/components/About/About";
+// Importing Education Section
+import Education from "@/components/Education/Education";
+// Importing Skills Section
+import Skills from "@/components/Skills/Skills";
+
 
 export default function Home() {
   return (
     <main>
       <Navbar />
-      <Hero />
+      <About />
+      <Education />
+      <Skills />
     </main>
   );
 }
