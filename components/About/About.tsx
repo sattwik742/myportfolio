@@ -1,24 +1,41 @@
+import Image from "next/image";
+
 export default function Hero() {
   return (
     <section className="min-h-screen flex items-center justify-center bg-gray-50 px-6">
-      <div className="max-w-3xl text-center">
-        <h1 className="text-5xl font-extrabold text-gray-900 mb-4">
+      <div className="flex flex-col items-center text-center">
+        {/* Profile Image */}
+        <div className="w-50 h-50 relative mb-6">
+          <Image
+            src="/images/profile.jpeg" 
+            alt="My Profile Image"
+            fill
+            className="object-cover rounded-full shadow-lg"
+            priority
+          />
+        </div>
+
+        {/* Heading */}
+        <h1 className="text-5xl font-extrabold text-gray-900 mb-4 animate-bounce">
           Hey, I'm <span className="text-black">Sattwik</span>
         </h1>
-        <p className="text-xl text-gray-700 mb-6">
+        {/* Description */}
+        <p className="text-xl text-gray-700 mb-6 max-w-2xl">
           A passionate <strong>Fullstack Developer</strong> building fast, scalable, and elegant web applications using
           <span className="text-black"> Next.js</span>, <span className="text-black">Node.js</span>, and modern web tech.
         </p>
+
+        {/* CTA Buttons */}
         <div className="flex justify-center gap-4">
           <a
             href="/resume.pdf"
-            className="bg-black text-white px-6 py-2 hover:bg-gray-800 transition"
+            className="bg-black text-white px-6 py-2 hover:bg-gray-800 transition rounded-md"
           >
             View Resume
           </a>
           <a
             href="#projects"
-            className="border border-black text-black px-6 py-2 hover:bg-gray-800 hover:text-white transition"
+            className="border border-black text-black px-6 py-2 hover:bg-gray-800 hover:text-white transition rounded-md"
           >
             See Projects
           </a>
