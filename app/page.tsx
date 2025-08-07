@@ -6,7 +6,8 @@ import About from "@/components/About/About";
 import Education from "@/components/Education/Education";
 // Importing Skills Section
 import Skills from "@/components/Skills/Skills";
-
+// Importing Projects Section
+import { Projects } from "@/components/Projects/Projects";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <About />
       <Education />
       <Skills />
+      <Projects />
     </main>
   );
 }

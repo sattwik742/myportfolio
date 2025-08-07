@@ -27,23 +27,23 @@ export default function Education() {
   ];
 
   return (
-    <section id="education" className="bg-black text-white py-16 px-6">
+    <section id="Education" className="bg-black text-white py-16 px-6">
       <div className="max-w-4xl mx-auto">
         <h2 className="text-4xl font-bold text-center mb-12">Education</h2>
 
         <div className="relative border-l-2 border-white pl-6">
           {educationData.map((edu, idx) => (
             <div key={idx} className="mb-10 relative">
-
-              {/* Timeline Dot */}
               <div className="absolute -left-[14px] top-1 w-4 h-4 bg-white rounded-full border-2 border-black"></div>
-              <span className="text-sm text-gray-400">{edu.year}</span>
+              <span className="text-sm">{edu.year}</span>
               <h3 className="text-xl font-semibold mt-1">{edu.title}</h3>
               <p className="text-sm font-medium">{edu.institution}</p>
-              <p className="text-sm text-gray-400">{edu.location}</p>
+              <p className="text-sm">{edu.location}</p>
               <p className="text-sm">Session: {edu.session}</p>
               {edu.cgpa && <p className="text-sm">CGPA: {edu.cgpa}</p>}
-              {edu.percentage && <p className="text-sm">Percentage: {edu.percentage}</p>}
+              {edu.percentage && (
+                <p className="text-sm">Percentage: {edu.percentage}</p>
+              )}
             </div>
           ))}
         </div>
