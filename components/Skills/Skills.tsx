@@ -26,7 +26,7 @@ const skillCategories: SkillCategory[] = [
 
 const Skills: React.FC = () => {
   return (
-    <section className="max-w-4xl mx-auto py-12 px-4">
+    <section id="Skills" className="max-w-4xl mx-auto py-12 px-4">
       <h2 className="text-3xl font-bold mb-8 text-center">Skills</h2>
       <div className="grid gap-8 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2">
         {skillCategories.map((category) => (
