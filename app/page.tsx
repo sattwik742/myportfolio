@@ -13,8 +13,12 @@ import Skills from "@/components/Skills/Skills";
 // Importing Projects Section
 import { Projects } from "@/components/Projects/Projects";
 
+// Importing Certifications Section
+import Certifications from "@/components/Certifications/Certification";
+
 // Importing Footer Section
 import Footer from "@/components/Footer/Footer";
+
 
 
 export default function Home() {
@@ -25,6 +29,7 @@ export default function Home() {
       <Education />
       <Skills />
       <Projects />
+      <Certifications />
       <Footer />
     </main>
   );
