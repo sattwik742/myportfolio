@@ -6,7 +6,7 @@ import { CardBody, CardContainer, CardItem } from "../ui/3d-card";
 
 export function Projects() {
   return (
-    <section className="bg-black">
+    <section className="bg-black" id="Projects">
       <h1 className="text-3xl text-white text-center py-6 font-semibold">
         Projects
       </h1>

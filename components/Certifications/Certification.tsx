@@ -20,7 +20,7 @@ const certifications: CertificationItem[] = [
 
 const Certification: React.FC = () => {
   return (
-    <section id="certifications" className="py-12 px-4 bg-white">
+    <section id="Certifications" className="py-12 px-4 bg-white">
       <div className="max-w-5xl mx-auto">
         <h2 className="text-3xl font-bold mb-8 flex items-center gap-2 text-black">
           <Award className="w-7 h-7 text-black" />

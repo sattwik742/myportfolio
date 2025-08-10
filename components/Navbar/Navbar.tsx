@@ -6,7 +6,7 @@ const Navbar = () => {
     <nav className="bg-black text-white px-6 py-4 relative flex items-center justify-between">
       {/* Left: Logo */}
       <div className="text-xl font-bold">sattwik.</div>
-
+ 
       {/* Center: Navigation Links */}
       <div className="absolute left-1/2 transform -translate-x-1/2">
         <ul className="flex space-x-6">
