@@ -1,14 +1,11 @@
-import { useState } from 'react'
-import './App.css'
+import Education from "./components/education";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-    <h1>Hello, World!</h1>
+    <Education />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
