@@ -1,9 +1,9 @@
-import Education from "./components/education";
+'use client'
 
 function App() {
   return (
     <>
-    <Education />
+    
     </>
   );
 }
